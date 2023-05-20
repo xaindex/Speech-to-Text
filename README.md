@@ -1,7 +1,4 @@
 # Speech-to-Text-WaveNet : End-to-end sentence level English speech recognition using DeepMind's WaveNet
-A tensorflow implementation of speech recognition based on DeepMind's [WaveNet: A Generative Model for Raw Audio](https://arxiv.org/abs/1609.03499). (Hereafter the Paper)
-
-Although [ibab](https://github.com/ibab/tensorflow-wavenet) and [tomlepaine](https://github.com/tomlepaine/fast-wavenet) have already implemented WaveNet with tensorflow, they did not implement speech recognition. That's why we decided to implement it ourselves. 
 
 Some of Deepmind's recent papers are tricky to reproduce. The Paper also omitted specific details about the implementation, and we had to fill the gaps in our own way.
 
@@ -177,16 +174,5 @@ and the polyglot speech recognition model will be a good candidate to future wor
 1. [SRGAN tensorflow implementation](https://github.com/buriburisuri/SRGAN)
 1. [ByteNet-Fast Neural Machine Translation](https://github.com/buriburisuri/ByteNet)
 
-## Citation
-
-If you find this code useful please cite us in your work:
-
-<pre><code>
-Kim and Park. Speech-to-Text-WaveNet. 2016. GitHub repository. https://github.com/buriburisuri/.
-</code></pre>
-
-# Authors
-
-Namju Kim (namju.kim@kakaocorp.com) at KakaoBrain Corp.
-
-Kyubyong Park (kbpark@jamonglab.com) at KakaoBrain Corp.
+## Contact
+Feel free to contact us if there is any question (tech@xaindex.ai).
